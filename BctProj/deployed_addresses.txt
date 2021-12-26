@@ -1,0 +1,128 @@
+Description
+The same contracts are deployed to Ropsten network thru INFURA infrastructure. 
+Please see the following output from the truffle migration --ropsten
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 8000000
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x61fcb4379107d84f5bc327bc9540bd960d9dc9b188ce0b7216d663b50104df44
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x4bcf1ED42511cDaE5DB1DdDb212114433B502e73
+   > account:             0xE0005218c21F894CEE3b42906b534adDD90A8C71
+   > balance:             20.99430184
+   > gas used:            284908
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00569816 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 4905636)
+   > confirmation number: 2 (block: 4905637)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00569816 ETH
+
+
+2_simpleloan_migration.js
+=========================
+
+   Deploying 'LoanUtil'
+   --------------------
+   > transaction hash:    0xfe5032342204e5db6d88e320af8ca9dc630a71d1c46d10f381fb5e3d17530741
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x762975a11f09cE191FD4240d336a39742eD11814
+   > account:             0xE0005218c21F894CEE3b42906b534adDD90A8C71
+   > balance:             20.99196492
+   > gas used:            74812
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00149624 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 4905641)
+   > confirmation number: 2 (block: 4905642)
+
+   Deploying 'SimpleLoan'
+   ----------------------
+   > transaction hash:    0x86faf49db85c43b63b01c5ed725fc3c7b8c19aba84dd0c19a9fcbf89f2116a41
+   > Blocks: 1            Seconds: 8
+   > contract address:    0xc1C66252F23A94992a5eAcc5e6A72cF2e905CCd2
+   > account:             0xE0005218c21F894CEE3b42906b534adDD90A8C71
+   > balance:             20.9213577
+   > gas used:            3530361
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07060722 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 4905645)
+   > confirmation number: 2 (block: 4905646)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.07210346 ETH
+
+
+3_timesecureloan_migration.js
+=============================
+
+   Deploying 'TimeSecuredLoan'
+   ---------------------------
+   > transaction hash:    0x750513407b6f0ef6ca5e1a90528d77936825df356d0c4865b254c3acd2471901
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x0e1c0F4d7cBe56435669b1bAa3d21E8aD887E94a
+   > account:             0xE0005218c21F894CEE3b42906b534adDD90A8C71
+   > balance:             20.84637382
+   > gas used:            3722160
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0744432 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 4905649)
+   > confirmation number: 2 (block: 4905650)
+
+   Deploying 'MockTimeSecuredLoan'
+   -------------------------------
+   > transaction hash:    0x5784dfa7cba9d0e0d9439a919ef62f16037a55db283a2d48ca12a2974f36950f
+   > Blocks: 0            Seconds: 12
+   > contract address:    0x85241dB1E6EF9B46b24623EB03e9853E30876154
+   > account:             0xE0005218c21F894CEE3b42906b534adDD90A8C71
+   > balance:             20.77051234
+   > gas used:            3793074
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07586148 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 4905651)
+   > confirmation number: 2 (block: 4905652)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.15030468 ETH
+
+
+Summary
+=======
+> Total deployments:   5
+> Final cost:          0.2281063 ETH
