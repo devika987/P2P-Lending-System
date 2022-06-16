@@ -21,19 +21,19 @@ P2P System provides a crowd sourced loan platform where the users can create a l
 * Metamask
 * Solidity
 
-##### Install and Run:
+#### Setup:
 Required NPM packages</br>
-*npm install --save truffle-hdwallet-provider*</br>
-*npm install --save dotenv*</br>
+```npm install --save truffle-hdwallet-provider```</br>
+```npm install --save dotenv```</br>
  
-update the truffle-config.js .</br>
-*const HDWalletProvider = require('truffle-hdwallet-provider');*</br>
-*require('dotenv').config();*</br>
+update the truffle-config.js:</br>
+```const HDWalletProvider = require('truffle-hdwallet-provider');```</br>
+```require('dotenv').config();```</br>
  
 In .env add following config</br>
-*MNEMONIC=[the mnemonic generated from metamask]*</br>
-*INFURA_API_KEY=[INFURA KEY]*</br>
+```MNEMONIC=[the mnemonic generated from metamask]```</br>
+```INFURA_API_KEY=[INFURA KEY]```</br>
 
 In client directory</br>
-*npm start*</br>
+```npm start```</br>
 *Open http://localhost:3000 in the browser*
