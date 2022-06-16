@@ -34,6 +34,6 @@ In .env add following config</br>
 *MNEMONIC=[the mnemonic generated from metamask]*</br>
 *INFURA_API_KEY=[INFURA KEY]*</br>
 
-In client directory
-*npm start*
+In client directory</br>
+*npm start*</br>
 *Open http://localhost:3000 in the browser*
